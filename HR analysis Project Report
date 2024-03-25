@@ -1,0 +1,41 @@
+Objective
+The main objective of this project was to perform a comprehensive analysis of the company's HR data to gain insights into various aspects such as employee demographics, distribution across departments and locations, tenure patterns, and turnover rates. The goal was to uncover valuable information that could aid in data-driven decision-making processes related to workforce management, diversity and inclusion initiatives, and employee retention strategies.
+
+Data Sourcing
+The primary data source for this analysis was a CSV file containing over 22,000 rows of HR data spanning from the year 2000 to 2020. This dataset included employee information such as hire dates, term dates (if applicable), job titles, departments, demographic details (age, gender, race/ethnicity), and location data.
+
+Challenges/Limitations
+During the data preparation and analysis phase, a few challenges and limitations were encountered:
+
+Data Cleaning: Some records had negative age values, which were excluded from the analysis (967 records). Additionally, term dates that were far into the future were omitted (1,599 records), as the analysis focused on employees who had already been terminated.
+Data Assumptions: Certain assumptions had to be made to fill in any gaps or unknowns in the dataset. For instance, assumptions were made regarding the specific job titles and their categorization into departments, as well as the mapping of locations to states.
+Limited Context: While the dataset provided a wealth of information, some contextual details about the company's organizational structure, business operations, and HR policies were not available, which could have provided additional insights.
+Key Insights and Findings
+The data analysis and visualization efforts yielded several key insights and findings:
+
+Employee Demographics:
+Gender Distribution: The company has more male employees (74.97%) than female employees (25.03%). A small percentage (0.5%) identifies as non-conforming.
+Race/Ethnicity Distribution: The majority of employees are White (50%), followed by Black or African American (28%), Asian (20%), Hispanic or Latino (11%), Two or More Races (10%), American Indian or Alaska Native (1%), and Native Hawaiian or Other Pacific Islander (1%).
+Age Distribution: The largest age group is 35-44 (23%), closely followed by 45-54 (22%) and 25-34 (22%). The smallest age group is 55-64 (5%), indicating a relatively young workforce.
+Employee Locations:
+The majority of employees (74.97%) work at the company's headquarters, while the remaining 25.03% work remotely.
+Among the states represented, Ohio has the highest number of employees, followed by Pennsylvania, Illinois, Michigan, Indiana, Kentucky, and Wisconsin.
+Tenure and Turnover:
+The mean duration of employment (tenure) for all employees is 8 years.
+The average length of employment for terminated employees is approximately 7 years.
+The Marketing department has the highest turnover rate (0.18), followed by Auditing (0.18) and Training (0.12). The lowest turnover rates are observed in Research and Development (0.12), Support (0.11), and Legal (0.13) departments.
+Gender Distribution Across Departments:
+While the gender distribution is relatively balanced across most departments, there is a higher representation of male employees in departments such as Engineering, Accounting, and Auditing.
+Departments like Human Resources, Marketing, and Training have a higher representation of female employees.
+Employee Count Trends:
+The company's employee count has steadily increased from 2000 to 2020, indicating growth and expansion over the years.
+Recommendations
+Based on the insights gained from this analysis, the following recommendations can be considered:
+
+Diversity and Inclusion Initiatives: Implement strategies to promote greater diversity and inclusivity, particularly in departments with skewed gender or racial/ethnic representations. This could involve targeted recruitment efforts, unconscious bias training, and fostering a more inclusive workplace culture.
+Employee Retention Strategies: Develop targeted retention programs for departments with high turnover rates, such as Marketing and Auditing. This could involve reviewing compensation packages, providing professional development opportunities, and addressing potential sources of employee dissatisfaction or burnout.
+Workforce Planning: Leverage the age distribution data to plan for future workforce needs and succession planning initiatives. As a significant portion of the workforce approaches retirement age, strategies should be developed to attract and retain younger talent to ensure a smooth transition.
+Remote Work Policies: Evaluate the effectiveness and potential benefits of remote work arrangements, as a considerable portion of the workforce is currently working remotely. This could involve assessing productivity, employee satisfaction, and cost-effectiveness of remote work options.
+Location-based Initiatives: Analyze the distribution of employees across different states and assess the need for targeted recruitment, talent acquisition, or expansion efforts in specific regions based on business requirements and growth plans.
+It is essential to note that these recommendations should be tailored to the company's specific needs, goals, and resources. Additionally, further analysis and input from relevant stakeholders, such as HR professionals, department heads, and leadership teams, would be beneficial in refining and implementing these recommendations effectively.
+
